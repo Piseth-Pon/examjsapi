@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RICK AND MORTY</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+
+      <div class="nav">
+        <a class="active" href="#characters">Characters</a>
+        <a href="#episodes">Episodes</a>
+        <a href="#locations">Locations</a>
+      </div>
+    </nav>
+
+    <div class="heading">
+      The Rick and Morty API
+    </div>
+    
+  </header>
+
+  <section id="characters">
+
+    <h2 class="section-title">ALL CHARACTERS</h2>
+
+    <div class="charactersWrapper">
+
+      <div class="character">
+        <div class="cover">
+          <img src="./images/rick_sanchez.jpeg" alt="">
+        </div>
+        <div class="detail">
+          <h4>Name</h4>
+          <p>Status - Species</p>
+          <div class="loc">
+            <p class="label">Last known location</p>
+            <p><a href="#">Location</a></p>
+          </div>
+          <div class="origin">
+            <p class="label">First seen in</p>
+            <p><a href="#">Origin</a></p>
+          </div>
+          <div class="eps">
+            <p class="label">Episodes</p>
+            <p>Number of Episodes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="episodes">
+
+    <h2 class="section-title">ALL EPISODES</h2>
+
+    <div class="episodesWrapper">
+
+      <div class="episode">
+        <h3>Episode Number: </h3>
+        <h2>Name: </h2>
+        <h4>Aired Date: </h4>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="locations">
+
+    <h2 class="section-title">ALL LOCATIONS</h2>
+
+    <div class="locationsWrapper">
+
+      <div class="location">
+        <h2>Name: </h2>
+        <h3>Type: </h3>
+        <h4>Dimension: </h4>
+        <h1>Residents: </h1>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+  <footer>
+    &copy; ALL RIGHT RESERVED 2024 <span id="source">THE RICK AND MORTY API</span>
+  </footer>
+
+
+  <script type="module" src="index.js"></script>
+</body>
+</html>
